@@ -17,13 +17,14 @@ int main(){
   int max = 0, maxi;
 
   // int i = 999; i > 0; i--
-  for(int i = 2; i <= 1000; i++) {
-    int collatz = collatzLength(i);
-    if(collatz > max) {
-      max = collatz;
-    }
-  }
+  // for(int i = 2; i <= 1000; i++) {
+  //   int collatz = collatzLength(i);
+  //   if(collatz > max) {
+  //     max = collatz;
+  //   }
+  // }
 
-  printf("%d", max);
+  printf("%d\n", collatzLength(49));
+
   return 0;
 }

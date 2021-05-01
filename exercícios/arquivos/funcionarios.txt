@@ -1,0 +1,4 @@
+funcionario1  1000  2
+funcionario2  1000  3
+Marllon  1000  5
+Maykon	2000	3
